@@ -17,6 +17,18 @@ function sumar($num1, $num2){
 }
 
 /**
+ * Función que resta dos números
+ *
+ * @param float $num1 Primer valor a restar
+ * @param float $num2 Segundo valor a restar
+ * @return float Valor con el resultado de la resta
+ */
+function restar($num1, $num2){
+    return $num1 - $num2;
+}
+
+
+/**
  * Función que devuelve un saludo con el nombre pasado por argumento
  *
  * @internal
